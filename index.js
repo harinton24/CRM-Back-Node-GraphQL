@@ -1,8 +1,14 @@
-const {ApolloServer, gql} = require('apollo-server');
+const { ApolloServer} = require('apollo-server');
+const typeDefs = require ('./src/schemas/schema1');
+const resolvers = require ('./src/resolvers/resolver1');
 
-const server = new ApolloServer();
+
+const server = new ApolloServer({
+    typeDefs, 
+    resolvers,
+});
 
 
-server.listen().then(({url})=>{
-    console.log('Servidor corriendo en la direccion ${url}')
+server.listen().then(({ url }) => {
+  console.log(`Servidor corriendo en la direccion ${url}`);
 });

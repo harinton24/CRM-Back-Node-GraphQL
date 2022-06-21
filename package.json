@@ -4,17 +4,19 @@
   "description": "personal projects",
   "main": "index.js",
   "scripts": {
-    "start":"node .",
-    "dev":"nodemon ."
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "repository": {
-    "type": "git",
-    "url": "\u0016https://github.com/harinton24"
+    "type": "git"
   },
   "author": "Harinton Ariza",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.9.0"
+    "apollo-server": "^3.9.0",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0",
+    "mongoose": "^6.4.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
