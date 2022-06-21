@@ -1,0 +1,22 @@
+{
+  "name": "crmbacknodegraph",
+  "version": "1.0.0",
+  "description": "personal projects",
+  "main": "index.js",
+  "scripts": {
+    "start":"node .",
+    "dev":"nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/harinton24"
+  },
+  "author": "Harinton Ariza",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
